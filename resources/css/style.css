@@ -1,0 +1,100 @@
+		*{
+				
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		
+		body {
+		    margin: 0;
+		    padding: 0;
+			background-color: #F9F7F7;
+		}
+
+		.login-form {
+			width: 25%;
+			min-width:350px;
+		    text-align: center; /* !!! */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #3A3B3A;
+
+		}
+
+		.login-form-panel{
+			 padding: 20px;
+		background-color: white;
+
+			 border-bottom: 5px solid #CBD7E3;
+			 border-radius: 0px 0px 5px 5px;
+ 				
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.login-form-panel-header{
+			padding: 10px;
+ 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 			background-color: #244E6E;
+ 			border-radius: 5px 5px 0px 0px;
+		}
+		.login-form h1{
+			font-size: 37px;
+
+
+		}
+		.login-form h3{
+			margin: 8px;
+			
+			color: #CBD7E3;
+		}
+		input{
+			width: 100%;
+			padding: 20px 35px;
+			margin: 8px 0;
+			border-color: #EAEAEA;
+			box-sizing: border-box;
+  			border: 1px solid #ccc;
+			outline: 0;
+			font-size: 20px;
+			  
+			border-radius: 3px;
+		}
+		a{
+			color: #244E6E;
+		}
+		input:focus{
+			box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+		}
+		.form-field{
+			margin-bottom: 5px;
+			text-align: left;
+			background-color: white;
+		}
+		
+
+		.login-form input[type=submit]{
+					  
+				background-color: #90CC8E;
+				border: 0;
+				
+				color: #FFFFFF;
+		}
+		.login-form input[type=submit]:hover{
+				cursor: pointer;
+				background-color: #6CDD7C;
+		}
+		.login-form input::placeholder {
+		  		color: #D8D8D8;
+		}
+		.login-form p,.login-form a{
+				font-size: 20px;
+				align-items: center;
+				font-family: 'Agency FB', arial;
+		}
+
+		.error-message{
+			color: #D38D92;
+			font-size: 16px;
+
+		}
+
+	
